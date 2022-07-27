@@ -1,8 +1,7 @@
 alphabet = input().upper()
-alphabet_list = list(alphabet)
 
 counts = {}
-for i in alphabet_list:
+for i in alphabet:
     try: counts[i] += 1
     except: counts[i] = 1
 
